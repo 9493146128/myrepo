@@ -1,0 +1,173 @@
+Git steps to merge
+
+
+create a branch
+git checkout -b bh04966_dev_18C_MCOMRE-167330
+cd AppConfig/
+471 git pull --rebase
+472 git branch
+473 git checkout -b bh04966_dev_18C_MCOMRE-166635
+474 git branch
+475 ls
+476 cd mcom-endpoints.tokens
+477 vi mcom-endpoints.tokens
+478 pwd
+479 cd Heroku/
+480 ls
+481 vi mcom-heroku.tokens
+482 pwd
+483 ls
+484 ll
+485 pwd
+486 cd ..
+487 ls
+488 vi mcom-endpoints.tokens
+489 ls
+490 git add .
+491 git status
+492 git branch
+493 git commit -m "MCOMRE-167330 made changes accordingly"
+494 git status
+496 git push origin bh04966_dev_18C_MCOMRE-167330
+497 exit
+
+
+sed -i '' "s#sharepoint.step.enabled=#sharepoint.step.enabled=true#g" */MCOM/PROD/*/env.properties
+
+
+sed -i '' "s/### COMMENTED-OUT BECAUSE VALUE WAS MISSING ### sharepoint.step.enabled=false/sharepoint.step.enabled=false/g" */MCOM/QA/*/env.properties
+
+
+
+sed -i '' "s#COMMENTED-OUT BECAUSE VALUE WAS MISSING ### sharepoint.step.enabled=#sharepoint.step.enabled=false#g" */MCOM/QA/*/env.properties
+
+
+18/03/2018
+1.https://code.devops.fds.com/RE/AppConfig/merge_requests/8958
+https://jira.federated.fds/browse/MCOMRE-168137
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8958
+
+
+2.https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=BH04966_DEV_MCOMRE-167789
+https://jira.federated.fds/browse/MCOMRE-167789
+
+
+
+
+
+
+16/03/2018
+1.https://jira.federated.fds/browse/MCOMRE-168163
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8941
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8941/diffs
+
+
+
+14/03/2018
+1>https://jira.federated.fds/browse/MCOMRE-168072
+https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=BH04966_18D_DEV_MCOMRE-168072
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8912/diffs
+
+2>https://jira.federated.fds/browse/MCOMRE-168051
+https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=BH04966_DEV_18D_MCOMRE-168051
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8914
+
+
+
+
+
+
+
+
+13/03/2018
+completed
+https://jira.federated.fds/browse/MCOMRE-167766
+
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8903/diffs
+
+
+
+
+
+
+
+All the deployments are completed, 
+Desktop & Mobile sanity looks good.
+Order number : 66174610002
+
+
+
+
+sed -i '' "s/moc.reservation.abandon.site.enabled=/moc.reservation.abandon.site.enabled=true/g" */*/*/*/env.properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://jira.federated.fds/browse/MCOMRE-167669
+
+Branch name:
+bh04966_dev_18D_MCOMRE-167669
+
+Merge request.
+https://code.devops.fds.com/RE/AppConfig/merge_requests
+
+https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=bh04966_dev_18D_MCOMRE-167669
+
+
+
+
+
+
+https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=bh04966_dev_18D_MCOMRE-167655
+
+https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=bh04966_dev_18D_MCOMRE-167655
+
+
+18D Both changes
+https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=bh04966_dev_18D_MCOMRE-167655
+
+
+We've updated property values as false in PROD and true in QA/Perf for Order/OrderBatch in both MCOM and BCOM 
+
+Below are the MR details that we used to commit the values in 18D 
+
+
+18D -- https://code.devops.fds.com/RE/AppConfig/merge_requests/new?merge_request%5Bsource_branch%5D=bh04966_dev_18D_MCOMRE-167655
+
+Please take a review and let us know if any issues/concerns 
+
+
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8853
+
+
+
+
+Hi team
+Below merge request is taking long time to merge not sure why?
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8931/
+can any one please help me.
+
+
+
+
+
+
+
+
+https://code.devops.fds.com/RE/AppConfig/merge_requests/8726
+
+
+bh04966_dev_18C_MCOMRE-166635 done
